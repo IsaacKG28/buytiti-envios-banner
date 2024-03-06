@@ -1,0 +1,51 @@
+.ast-container {
+    max-width: 2340px;
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+
+body, html, .block-class {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.entry-content .clear {
+	width: 100vw;
+	margin-left: -400px;
+	counter-reset: none !important;
+	word-wrap: none !important;
+  }
+		.block-class{
+			
+			display: flex;
+			justify-content: space-between;
+			background-color: #e0e0e4;
+			width: 100%;
+			margin: 0 auto;
+			height: 120px;
+			position: relative;
+			overflow: hidden;
+		
+		}
+.image-container {
+    flex: 1;
+    margin: 0 10px; /* Ajusta el valor del margen según el espacio que desees entre las imágenes */
+    text-align: center; /* Centra la imagen en su contenedor */
+}
+
+.image-container a .image-0 {
+	height: 80px;
+	width: 220px;
+	margin-top: 20px;
+}
+
+.image-container a .image-1 {
+	height: 80px;
+	width: 220px;
+	margin-top: 20px;
+}
+
+.image-container a .image-2 {
+	height: 80px;
+	width: 220px;
+	margin-top: 20px;
+}
